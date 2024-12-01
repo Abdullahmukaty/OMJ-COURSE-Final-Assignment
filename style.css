@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'poppins' sans-serif;
+}
+
+body {
+    background-color: #000;
+}
+
+.headerhero {
+    background-color: #000;
+}
+
+.nav ul {
+    display: flex;
+}
+.nav ul li{
+    margin: 20px;
+}
+.nav ul li a{
+    font-size: 20px;
+    color: #55e6a5;
+    transition: 0.5s;
+}
+.nav ul li a:hover{
+    color: #fff;
+}
+.bars{
+    display: none;
+}
+.bars img{
+    width: 30px;
+    cursor: pointer;
+}
